@@ -1,0 +1,18 @@
+{
+  "name": "flux-basics",
+  "version": "1.0.0",
+  "description": "This is a personal repo faturing training on Flux and React ",
+  "main": "index.js",
+  "scripts": {
+    "test": "client-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NdauwaRafael/flux-basics.git"
+  },
+  "keywords": [
+    "flux-basics"
+  ],
+  "author": "Raphael Karanja",
+  "license": "ISC"
+}
