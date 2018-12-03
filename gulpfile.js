@@ -27,3 +27,14 @@ gulp.task('open', ['connect'], ()=>{
         .pipe(open({uri: config.devBaseUrl + ':' + config.port + '/'}))
 });
 
+gulp.task('html', ()=>{
+    gulp.src(config.paths.html)
+        .pipe(gulp.dest(config.paths.dist))
+        .pipe(connect.reload());
+});
+
+gulp.task('watch', ()=>{
+    gulp.watch(config.paths.html, ['html']);
+});
+gulp.task('default', ['html', 'open', 'watch']);
+
