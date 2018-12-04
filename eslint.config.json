@@ -6,8 +6,7 @@
   "env": {
     "browser": true,
     "node": true,
-    "jquery": true,
-    "es6": true
+    "jquery": true
   },
   "rules": {
     "quotes": 0,
@@ -16,7 +15,15 @@
     "no-unused-vars": 0,
     "no-underscore-dangle": 0,
     "no-alert": 0,
-    "no-lone-blocks": 0
+    "no-lone-blocks": 0,
+    "no-multi-assign": 0,
+    "no-var": 0,
+    "vars-on-top": 0,
+    "react/jsx-tag-spacing": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/newline-after-import": 0,
+    "react/prefer-es6-class": 0,
+    "react/prefer-stateless-function": 0
   },
   "globals": {
     "jQuery": true,
